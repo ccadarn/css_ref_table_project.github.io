@@ -1,35 +1,51 @@
-* {
-    background-color: rgba(252, 241, 197, 0.427);
-}
-
 table {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    padding: auto;
+    width: auto;
+    height: auto;
+    background-color: rgba(255, 162, 0, 0.051);
+    font-size: 17px;
   }
 
 td, th {
-    border: 1px solid black;
+    border: 1px dotted black;
+}
+
+tr:hover {
+    background-color: rgba(255, 136, 0, 0.642);
 }
 
 th {
-    background-color: rgba(255, 238, 1, 0.373);
-}
-
-td {
-    background-color: rgba(255, 238, 1, 0.051);
-
+    background-color: rgba(255, 136, 0, 0.642);
 }
 
 h1 {
-    background-color: rgb(255, 238, 1);
+    background-color: rgba(255, 136, 0, 1);
     font-weight: bolder;
     text-align: center;
     margin: auto;
     font-family:Arial, Helvetica, sans-serif;
-    position: sticky;
     top: 0x;
 }
 
+h2 {
+    background-color: rgba(255, 136, 0, 0.733);
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 p {
-    text-align: justify;
+    text-align: left;
+    font-size: 17px;
+}
+
+.olcss {
+    color: rgb(212, 212, 212);
+    line-height: 24.5px;
+    background-color: rgb(17, 17, 17);
+    font-size: 15px;
+    font-weight: 600;
+    word-spacing: 1px;
+    text-align: left;
+    box-shadow: 11px;
 }
